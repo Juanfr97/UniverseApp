@@ -1,0 +1,116 @@
+{
+    "planets": [
+      {
+        "id": "1",
+        "name": "Mercurio",
+        "type": "Planeta rocoso",
+        "description": "Mercurio es el planeta más cercano al Sol y el más pequeño del sistema solar. Es un mundo rocoso y desolado, con una superficie marcada por cráteres de impacto y vastas llanuras de lava.",
+        "mass": "0.055 Tierras",
+        "diameter": "4,880 km",
+        "gravity": "3.7 m/s²",
+        "rotation": "59 días",
+        "traslation": "88 días",
+        "distance": "57.9 millones km",
+        "moons": 0,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Mercury_in_color_-_Prockter07_centered.jpg/1200px-Mercury_in_color_-_Prockter07_centered.jpg"
+      },
+      {
+        "id": "2",
+        "name": "Venus",
+        "description": "Venus es el segundo planeta del sistema solar y el más parecido a la Tierra en cuanto a tamaño, masa y composición. Sin embargo, su atmósfera es extremadamente densa y tóxica, y su superficie es un infierno de altas temperaturas y presiones.",
+        "type": "Planeta rocoso",
+        "mass": "0.815 Tierras",
+        "diameter": "12,104 km",
+        "gravity": "8.87 m/s²",
+        "rotation": "243 días",
+        "traslation": "225 días",
+        "distance": "108.2 millones km",
+        "moons": 0,
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Venus_from_Mariner_10.jpg/640px-Venus_from_Mariner_10.jpg"
+      },
+      {
+        "id": "3",
+        "name": "Tierra",
+        "description": "La Tierra es el tercer planeta del sistema solar y el único mundo conocido que alberga vida. Es un planeta rocoso con una atmósfera única, compuesta por nitrógeno, oxígeno y otros gases, que permite la existencia de océanos, ríos, lagos y vida.",
+        "type": "Planeta rocoso",
+        "mass": "1 Tierra",
+        "diameter": "12,742 km",
+        "gravity": "9.81 m/s²",
+        "rotation": "1 día",
+        "traslation": "365.25 días",
+        "distance": "149.6 millones km",
+        "moons": 1,
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/As08-16-2593.jpg/640px-As08-16-2593.jpg"
+      },
+      {
+        "id": "4",
+        "name": "Marte",
+        "description": "Marte es el cuarto planeta del sistema solar y el último de los planetas rocosos. Es un mundo desértico y frío, con una atmósfera delgada compuesta por dióxido de carbono y nitrógeno, y una superficie marcada por cráteres, valles, montañas y dunas.",
+        "type": "Planeta rocoso",
+        "mass": "0.107 Tierras",
+        "diameter": "6,779 km",
+        "gravity": "3.71 m/s²",
+        "rotation": "1.03 días",
+        "traslation": "687 días",
+        "distance": "227.9 millones km",
+        "moons": 2,
+        "image":"https://www.mexicodesconocido.com.mx/wp-content/uploads/2020/10/5f2f422ed2150.jpeg"
+      },
+      {
+        "name": "Júpiter",
+        "description": "Júpiter es el quinto planeta del sistema solar y el más grande de todos. Es un mundo gaseoso con una atmósfera compuesta por hidrógeno y helio, y una superficie marcada por nubes, tormentas y un campo magnético intenso.",
+        "type": "Planeta gaseoso",
+        "mass": "317.8 Tierras",
+        "diameter": "139,820 km",
+        "gravity": "24.79 m/s²",
+        "rotation": "0.41 días",
+        "traslation": "11.9 años",
+        "distance": "778.6 millones km",
+        "moons": 79,
+        "image":"https://spaceplace.nasa.gov/all-about-jupiter/sp/jupiter_auroras.sp.jpg"
+      },
+      {
+        "id": "6",
+        "name": "Saturno",
+        "description": "Saturno es el sexto planeta del sistema solar y el segundo más grande. Es un mundo gaseoso con una atmósfera compuesta por hidrógeno y helio, y una superficie marcada por anillos, tormentas y un campo magnético intenso.",
+        "type": "Planeta gaseoso",
+        "mass": "95.2 Tierras",
+        "diameter": "116,460 km",
+        "gravity": "10.44 m/s²",
+        "rotation": "0.45 días",
+        "traslation": "29.5 años",
+        "distance": "1,429 millones km",
+        "moons": 82,
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/1200px-Saturn_during_Equinox.jpg"
+      },
+      {
+        "id": "7",
+        "name": "Urano",
+        "description": "Urano es el séptimo planeta del sistema solar y el tercero más grande. Es un mundo gaseoso con una atmósfera compuesta por hidrógeno y helio, y una superficie marcada por nubes, tormentas y un campo magnético intenso.",
+        "type": "Planeta gaseoso",
+        "mass": "14.6 Tierras",
+        "diameter": "50,724 km",
+        "gravity": "8.69 m/s²",
+        "rotation": "0.72 días",
+        "traslation": "84 años",
+        "distance": "2,871 millones km",
+        "moons": 27,
+        "image":"https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2023/08/18/urano-1.jpeg"
+      },
+      {
+        "id": "8",
+        "name": "Neptuno",
+        "description": "Neptuno es el octavo planeta del sistema solar y el cuarto más grande. Es un mundo gaseoso con una atmósfera compuesta por hidrógeno y helio, y una superficie marcada por nubes, tormentas y un campo magnético intenso.",
+        "type": "Planeta gaseoso",
+        "mass": "17.2 Tierras",
+        "diameter": "49,244 km",
+        "gravity": "11.15 m/s²",
+        "rotation": "0.67 días",
+        "traslation": "164.8 años",
+        "distance": "4,498 millones km",
+        "moons": 14,
+        "image":"https://services.meteored.com/img/article/neptuno-en-oposicion-al-sol-el-mejor-momento-para-disfrutar-del-planeta-azul-se-acerca-1694627532589_1280.jpeg"
+      }
+    ]
+  }
+  
