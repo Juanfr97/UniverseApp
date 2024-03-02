@@ -1,8 +1,17 @@
-# React + Vite
+# Universe Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is a landing page for the Universe Web project. It is a simple web page that contains a navbar, 3 pages: Home, Planets and Galaxies. Home page contains information about the universe. Planet page contains information about solar system planets. Galaxies page contains information about galaxies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+
+- HTML
+- CSS
+- React
+
+## How to run
+
+1. Clone the repository
+2. Run `npm install` to install the dependencies
+3. Run `npm run dev` to start the project

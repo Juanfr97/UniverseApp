@@ -1,3 +1,9 @@
 .container{
     color:white
 }
+
+.img-fluid {
+    height: 200px; 
+    width: auto;
+    object-fit: cover; 
+  }

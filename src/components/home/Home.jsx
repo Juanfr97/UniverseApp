@@ -1,5 +1,7 @@
 import {universe} from '../../data/info'
 import './Home.css'
+import {DetailCard} from '../shared/DetailCard'
+import {MdAccessTime, MdExpand, MdStar, MdScience} from 'react-icons/md'
 export const Home = () => {
   console.log(universe)
   return (
@@ -15,13 +17,22 @@ export const Home = () => {
 
     </div>
     <div className="row mt-3">
-      <div className="col">
+    <div className="col">
         <h4>Información General:</h4>
         <ul className="list-group">
-          <li className="list-group-item"><strong>Edad:</strong> {universe.age}</li>
-          <li className="list-group-item"><strong>Tamaño:</strong> {universe.size}</li>
-          <li className="list-group-item"><strong>Estrellas:</strong> {universe.stars}</li>
-          <li className="list-group-item"><strong>Materia:</strong> {universe.matter}</li>
+          {/* Usa el componente DetailCard con los iconos y descripciones apropiadas */}
+          <li className="list-group-item">
+            <DetailCard icon={MdAccessTime} description={`Edad: ${universe.age}`} />
+          </li>
+          <li className="list-group-item">
+            <DetailCard icon={MdExpand} description={`Tamaño: ${universe.size}`} />
+          </li>
+          <li className="list-group-item">
+            <DetailCard icon={MdStar} description={`Estrellas: ${universe.stars}`} />
+          </li>
+          <li className="list-group-item">
+            <DetailCard icon={MdScience} description={`Materia: ${universe.matter}`} />
+          </li>
         </ul>
       </div>
     </div>

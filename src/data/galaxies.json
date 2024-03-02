@@ -1,0 +1,40 @@
+{
+    "galaxies":[
+        {
+          "id": 1,
+          "name": "Vía Láctea",
+          "description": "La galaxia donde se encuentra nuestro sistema solar, caracterizada por su espiral barrada y rica en cúmulos estelares y nebulosas.",
+          "diameter": "105000 años luz",
+          "image":"https://concepto.de/wp-content/uploads/2022/10/via-lactea-galaxia-e1665255789247.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Andrómeda",
+          "description": "La galaxia más cercana a la Vía Láctea, con la cual se espera que colisione en aproximadamente 4 mil millones de años.",
+          "diameter": "220000 años luz",
+          "image":"https://upload.wikimedia.org/wikipedia/commons/5/57/M31bobo.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Galaxia del Sombrero",
+          "description": "Conocida por su brillante núcleo y prominente banda de polvo en el disco galáctico, es una de las galaxias más brillantes y fáciles de identificar en el cielo.",
+          "diameter": "50000 años luz",
+          "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/M104_ngc4594_sombrero_galaxy_hi-res.jpg/1200px-M104_ngc4594_sombrero_galaxy_hi-res.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Galaxia del Triángulo",
+          "description": "También conocida como M33, es una galaxia espiral localizada en el grupo local, famosa por sus brazos espirales llenos de regiones de formación estelar.",
+          "diameter": "60000 años luz",
+          "image":"https://upload.wikimedia.org/wikipedia/commons/0/0d/Messier_33.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Galaxia Enana del Can Mayor",
+          "description": "Es una galaxia satélite de la Vía Láctea y una de las más cercanas a la nuestra, es una fuente rica en estrellas antiguas.",
+          "diameter": "7500 años luz",
+          "image":"https://pbs.twimg.com/media/F4oLiJuWoAAbUUc.png"
+        }
+      ]
+      
+}
