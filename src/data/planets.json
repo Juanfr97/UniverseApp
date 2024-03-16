@@ -110,7 +110,21 @@
         "distance": "4,498 millones km",
         "moons": 14,
         "image":"https://services.meteored.com/img/article/neptuno-en-oposicion-al-sol-el-mejor-momento-para-disfrutar-del-planeta-azul-se-acerca-1694627532589_1280.jpeg"
-      }
+      },
+      {
+        "id": "9",
+        "name": "Plutón",
+        "description": "Plutón, anteriormente considerado el noveno planeta del sistema solar, ahora es clasificado como un planeta enano. Se encuentra en el cinturón de Kuiper y es conocido por su compleja composición de hielo y roca, y una delgada atmósfera compuesta principalmente de nitrógeno, metano y monóxido de carbono.",
+        "type": "Planeta enano",
+        "mass": "0.00218 Tierras",
+        "diameter": "2,377 km",
+        "gravity": "0.62 m/s²",
+        "rotation": "6.39 días",
+        "traslation": "247.94 años",
+        "distance": "5,906 millones km",
+        "moons": 5,
+        "image": "https://static.nationalgeographic.es/files/styles/image_3200/public/pia19952.jpg?w=1600"
+      }      
     ]
   }
   

@@ -1,9 +1,24 @@
-import {universe} from '../../data/info'
+
 import './Home.css'
 import {DetailCard} from '../shared/DetailCard'
 import {MdAccessTime, MdExpand, MdStar, MdScience} from 'react-icons/md'
+import {getUniverseById} from '../../services/UniverseService'
+import { useEffect,useState } from 'react'
 export const Home = () => {
-  console.log(universe)
+
+  const [universe, setUniverse] = useState({
+    images:[],
+    facts:[]
+  })
+  const getUniverseInfo = async () => {
+    const { data } = await getUniverseById('65e8b182115f8e40ed62418e')
+    console.log(data)
+    setUniverse(data)
+  }
+  useEffect(() => {
+    getUniverseInfo()
+  }, [])
+  
   return (
     <div className="container">
     <div className="row align-items-center">
